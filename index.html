@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="container">
+        <h2>The numbers from 1 to 20:</h2>
+        <button onclick="display1To20()">Display</button>
+        <p id="output1">Push the button for results!</p>
+      </div>
+
+      <div class="container">
+        <h2>All odd numbers from 1 to 20:</h2>
+        <button onclick="displayOdd1To20()">Display</button>
+        <p id="output2">Push the button for results!</p>
+      </div>
+
+      <div class="container">
+        <h2>
+          Calculate the sum of the elements <br />
+          of the following array: <br />
+          [2, 3, 5, 7, 5, 3]
+        </h2>
+        <button onclick="sumOfElemOfArray(list)">Display</button>
+        <p id="output3">Push the button for results!</p>
+      </div>
+
+      <div class="container">
+        <h2>
+          Compute the maximum of the elements <br />
+          of the following array: <br />
+          [2, 3, 5, 7, 5, 3]
+        </h2>
+        <button onclick="maxOfElemOfArr(list)">Display</button>
+        <p id="output4">Push the button for results!</p>
+      </div>
+
+      <div class="container">
+        <h2>
+          Compute how many times a certain element <br />
+          appears in the following array: <br />
+          [2, 3, 5, 7, 5, 3]
+        </h2>
+        <input
+          type="number"
+          id="userInput"
+          placeholder="Select one element of the array"
+        />
+        <button onclick="nrOfElemInArr(list)">Display</button>
+        <p id="output5">Push the button for results!</p>
+      </div>
+
+      <div class="container">
+        <h2>Fibonacci series of the first 50 terms:</h2>
+        <button onclick="showFibonacci(50)">Display</button>
+        <p id="output6">Push the button for results!</p>
+      </div>
+
+      <div class="container">
+        <h2>“FizzBuzz” game:</h2>
+        <p>
+          All numbers from 1 to 100. For multiples of 3 “Fizz” is displayed and
+          for multiples of 5 “Buzz” is displayed. For numbers which are
+          multiples of both 3 and 5 “FizzBuzz” is displayed.
+        </p>
+        <button onclick="fizzBuzz(100)">Play</button>
+        <p id="output7">Push the button for results!</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

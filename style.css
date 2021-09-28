@@ -1,0 +1,40 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  margin-bottom: 40px;
+  background-color: rgb(219, 218, 218);
+  text-align: center;
+  border: 1px solid rgb(204, 201, 201);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.08), 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+input,
+button {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 10px;
+  background-color: rgb(66, 66, 66);
+  border: none;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+p{
+  word-wrap: break-word;
+  padding: 10px;
+}
